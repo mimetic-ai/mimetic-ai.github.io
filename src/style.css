@@ -22,6 +22,35 @@ body {
   margin: auto;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+  transition: all ease-in-out 200ms;
+}
+
+a:hover {
+  color: white;
+}
+
+.navlink:hover {
+  color: #a71ed4;
+}
+
+.cta-btn {
+  background: none;
+  border: solid 2px white;
+}
+
+.cta-btn:hover {
+  border: 2px solid #a71ed4;
+  background: linear-gradient(
+    57.34deg,
+    rgba(22, 20, 22, 0.5) -4.96%,
+    rgba(84, 34, 156, 0.6) 48.2%,
+    #761696 107.2%
+  );
+}
+
 .placeholder {
   width: 100%;
   height: 100%;
@@ -37,9 +66,9 @@ body {
 .tab-1 {
   background: linear-gradient(
     89.85deg,
-    rgba(22, 20, 22, 0.5) 26.72%,
+    #0a0b23 26.72%,
     rgba(84, 34, 156, 0.6) 56.17%,
-    #761696 97.75%
+    rgba(118, 22, 150, 0.7) 97.75%
   );
   border-radius: 0px 150px 150px 0px;
 }
@@ -47,12 +76,35 @@ body {
 .tab-2 {
   background: linear-gradient(
     89.85deg,
-    #761696 74.26%,
-    rgba(84, 34, 156, 0.6) 44.83%,
-    rgba(22, 20, 22, 0.5) 2.25%
+    rgba(118, 22, 150, 0.7) 26.26%,
+    rgba(84, 34, 156, 0.6) 56.83%,
+    #0a0b23 97.5%
   );
   border-radius: 150px 0px 0px 150px;
 }
 i {
   color: white;
+  transition: all ease-in-out 200ms;
+}
+i:hover {
+  color: #a71ed4;
+}
+
+.email-btn {
+  background: none;
+  border: solid 2px white;
+  width: 400px;
+  padding: 15px 8px;
+  margin: 0 auto;
+  transition: all ease-in-out 200ms;
+}
+
+.email-btn:hover {
+  border: 2px solid #a71ed4;
+  background: linear-gradient(
+    57.34deg,
+    rgba(22, 20, 22, 0.5) -4.96%,
+    rgba(84, 34, 156, 0.6) 48.2%,
+    #761696 107.2%
+  );
 }
