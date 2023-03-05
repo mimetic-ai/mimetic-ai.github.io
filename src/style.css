@@ -17,8 +17,9 @@ body {
   font-family: "Golos", sans-serif;
 }
 
-.hero,
-.contact {
+.headline,
+.contact-cta,
+.callout {
   background: linear-gradient(
     57.34deg,
     #761696 -4.92%,
@@ -102,7 +103,8 @@ i:hover {
 }
 
 .contact img {
-  border: 5px solid #761696;
+  max-width: 120px;
+  margin: 0 auto;
 }
 
 .email-btn {
