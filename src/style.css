@@ -17,6 +17,17 @@ body {
   font-family: "Golos", sans-serif;
 }
 
+.hero,
+.contact {
+  background: linear-gradient(
+    57.34deg,
+    #761696 -4.92%,
+    rgba(84, 34, 156, 0.6) 48.2%,
+    rgba(22, 20, 22, 0.5) 104.96%
+  );
+  border-radius: 30px;
+}
+
 .about {
   width: 80%;
   margin: auto;
@@ -37,18 +48,18 @@ a:hover {
 }
 
 .cta-btn {
-  background: none;
-  border: solid 2px white;
-}
-
-.cta-btn:hover {
-  border: 2px solid #a71ed4;
   background: linear-gradient(
     57.34deg,
     rgba(22, 20, 22, 0.5) -4.96%,
     rgba(84, 34, 156, 0.6) 48.2%,
     #761696 107.2%
   );
+  border: solid 2px white;
+}
+
+.cta-btn:hover {
+  border: 2px solid white;
+  background: #a71ed4;
 }
 
 .placeholder {
@@ -70,7 +81,7 @@ a:hover {
     rgba(84, 34, 156, 0.6) 56.17%,
     rgba(118, 22, 150, 0.7) 97.75%
   );
-  border-radius: 0px 150px 150px 0px;
+  border-radius: 40px;
 }
 
 .tab-2 {
@@ -90,8 +101,17 @@ i:hover {
   color: #a71ed4;
 }
 
+.contact img {
+  border: 5px solid #761696;
+}
+
 .email-btn {
-  background: none;
+  background: linear-gradient(
+    57.34deg,
+    rgba(22, 20, 22, 0.5) -4.96%,
+    rgba(84, 34, 156, 0.6) 48.2%,
+    #761696 107.2%
+  );
   border: solid 2px white;
   width: 400px;
   padding: 15px 8px;
@@ -100,11 +120,6 @@ i:hover {
 }
 
 .email-btn:hover {
-  border: 2px solid #a71ed4;
-  background: linear-gradient(
-    57.34deg,
-    rgba(22, 20, 22, 0.5) -4.96%,
-    rgba(84, 34, 156, 0.6) 48.2%,
-    #761696 107.2%
-  );
+  border: 2px solid white;
+  background: #a71ed4;
 }
