@@ -21,17 +21,21 @@ body {
 .contact-cta,
 .callout {
   background: linear-gradient(
-    57.34deg,
-    #761696 -4.92%,
-    rgba(84, 34, 156, 0.6) 48.2%,
-    rgba(22, 20, 22, 0.5) 104.96%
+    182.97deg,
+    rgba(22, 20, 22, 0.5) -25.9%,
+    rgba(84, 34, 156, 0.6) 32.91%,
+    #761696 98.18%
   );
   border-radius: 30px;
 }
 
 .about {
-  width: 80%;
-  margin: auto;
+  margin: 0 auto;
+}
+
+.callout {
+  width: 60%;
+  margin: 0 auto;
 }
 
 a {
@@ -74,23 +78,26 @@ a:hover {
   );
   border-radius: 40px;
 }
+.feature {
+  color: #a71ed4;
+}
 
 .tab-1 {
   background: linear-gradient(
-    89.85deg,
-    #0a0b23 26.72%,
-    rgba(84, 34, 156, 0.6) 56.17%,
-    rgba(118, 22, 150, 0.7) 97.75%
+    182.97deg,
+    rgba(22, 20, 22, 0.5) -25.9%,
+    rgba(84, 34, 156, 0.6) 32.91%,
+    #761696 98.18%
   );
   border-radius: 40px;
 }
 
 .tab-2 {
   background: linear-gradient(
-    89.85deg,
-    rgba(118, 22, 150, 0.7) 26.26%,
-    rgba(84, 34, 156, 0.6) 56.83%,
-    #0a0b23 97.5%
+    182.97deg,
+    rgba(22, 20, 22, 0.5) -25.9%,
+    rgba(84, 34, 156, 0.6) 32.91%,
+    #761696 98.18%
   );
   border-radius: 150px 0px 0px 150px;
 }
