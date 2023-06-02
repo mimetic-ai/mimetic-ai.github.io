@@ -1,134 +1,261 @@
-@font-face {
-  font-family: "Golos Text", sans-serif;
-  src: url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&display=swap");
+header {
+    background-color: rgba(21, 21, 21, 0.5);
+}
+
+nav {
+    padding-left: 2%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
 body {
-  box-sizing: border-box;
-  margin: 0 auto;
-  width: 100%;
-  min-height: 100vh;
-  background: radial-gradient(
-    140.9% 89.18% at 48.01% 10.82%,
-    #181c3f 0%,
-    #000002 100%
-  );
-  color: white;
-  font-family: "Golos", sans-serif;
+    background-color: rgb(21, 21, 21, 0.9);
+    color: #e2e2e2;
+    font-family: 'Oxanium', cursive;
+
 }
 
-.headline,
-.contact-cta,
-.callout {
-  background: linear-gradient(
-    182.97deg,
-    rgba(22, 20, 22, 0.5) -25.9%,
-    rgba(84, 34, 156, 0.6) 32.91%,
-    #761696 98.18%
-  );
-  border-radius: 30px;
+.body-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    gap: 500px;
 }
 
-.about {
-  margin: 0 auto;
+.full-nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.callout {
-  width: 60%;
-  margin: 0 auto;
+/* .logo-container {
+    align-
+} */
+
+.logo-container img {
+    max-width: 250px;
 }
 
-a {
-  color: white;
-  text-decoration: none;
-  transition: all ease-in-out 200ms;
+.navigation-container {
+    align-items: flex-end;
+    width: 30%;
 }
 
-a:hover {
-  color: white;
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.navlink:hover {
-  color: #a71ed4;
+.nav-item {
+    font-size: 30px;
 }
 
-.cta-btn {
-  background: linear-gradient(
-    57.34deg,
-    rgba(22, 20, 22, 0.5) -4.96%,
-    rgba(84, 34, 156, 0.6) 48.2%,
-    #761696 107.2%
-  );
-  border: solid 2px white;
+.nav-item a {
+    color:#e2e2e2;
+    text-decoration: none;
 }
 
-.cta-btn:hover {
-  border: 2px solid white;
-  background: #a71ed4;
+.contact-btn {
+    background-color: black;
+    size: 20% 10%;
 }
 
-.placeholder {
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(
-    57.34deg,
-    rgba(22, 20, 22, 0.5) -4.96%,
-    rgba(84, 34, 156, 0.6) 48.2%,
-    #761696 107.2%
-  );
-  border-radius: 40px;
-}
-.feature {
-  color: #a71ed4;
+.contact-btn a {
+    color: #e2e2e2;
+    text-decoration: none;
+    /* font-size: ; */
 }
 
-.tab-1 {
-  background: linear-gradient(
-    182.97deg,
-    rgba(22, 20, 22, 0.5) -25.9%,
-    rgba(84, 34, 156, 0.6) 32.91%,
-    #761696 98.18%
-  );
-  border-radius: 40px;
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    gap: 50px;
+    width: 100%;
 }
 
-.tab-2 {
-  background: linear-gradient(
-    182.97deg,
-    rgba(22, 20, 22, 0.5) -25.9%,
-    rgba(84, 34, 156, 0.6) 32.91%,
-    #761696 98.18%
-  );
-  border-radius: 150px 0px 0px 150px;
-}
-i {
-  color: white;
-  transition: all ease-in-out 200ms;
-}
-i:hover {
-  color: #a71ed4;
+.headline {
+   
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    text-align: center;
+    
+    color: white;
+    
+
 }
 
-.contact img {
-  max-width: 120px;
-  margin: 0 auto;
+.tagline {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
 }
 
-.email-btn {
-  background: linear-gradient(
-    57.34deg,
-    rgba(22, 20, 22, 0.5) -4.96%,
-    rgba(84, 34, 156, 0.6) 48.2%,
-    #761696 107.2%
-  );
-  border: solid 2px white;
-  width: 400px;
-  padding: 15px 8px;
-  margin: 0 auto;
-  transition: all ease-in-out 200ms;
+
+.join-beta-btn a{
+    text-decoration: none;
+    color: #ff0000;
+    font-weight: 500;
 }
 
-.email-btn:hover {
-  border: 2px solid white;
-  background: #a71ed4;
+.vision-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.vision-headline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.vision-headline-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    color: white
+
+}
+
+.vision-headline-content {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 32px;
+    text-align: center;
+}
+
+.vision-goal-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 10%;
+}
+
+.vision-goal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.vision-goal-header {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    color: white
+}
+
+.vision-goal-description {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    text-align: center;
+}
+
+.philosophy-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+}
+
+.philosophy-headline {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    width: max-content;
+    color: white;
+}
+
+.philosophy-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.philosophy-list {
+    font-style:normal;
+    font-weight: 300;
+    font-size: 50px;
+    color: #ff0000;
+    text-align: center;
+    width: 100%;
+}
+
+.philosophy-paragraphs {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.team-headline {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    color: white;
+}
+
+.team-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+}
+
+.person-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.team-person-name {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.team-person-position {
+    font-weight: 400;
+    color: #ff0000;
+}
+
+.team-person-description {
+    text-align: center;
+    width: 80%;
 }
