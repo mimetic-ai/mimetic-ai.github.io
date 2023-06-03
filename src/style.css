@@ -44,20 +44,17 @@ body {
     align-
 } */
 
-.logo-container img {
+/* .logo-container img {
     max-width: 250px;
-}
+} */
 
 .navigation-container {
-    align-items: flex-end;
-    width: 30%;
-}
-
-.nav-links {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    align-items:center;
+    gap: 5%;
+    width: 30%;
+    justify-content: flex-end;
 }
 
 .nav-item {
